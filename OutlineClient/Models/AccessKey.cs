@@ -12,6 +12,6 @@
         public string Name { get; set; } = string.Empty;
         public string Password { get; set; } = null!;
         public int Port { get; set; }
-        public Limit? DataLimit { get; set; } = new Limit();
+        public Limit? DataLimit { get; set; }
     }
 }
